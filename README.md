@@ -50,11 +50,15 @@ If you have a suggestion, open an issue with "(Suggestion)" before the title.
 - Download the repository and game assets
 
 ```sh
-git clone --recursive https://github.com/FOSS-Supremacy/apple-seed
+git clone https://github.com/FOSS-Supremacy/apple-seed
 ```
 
 - Download the [Godot Engine](https://godotengine.org/) 4.x version (normal variant, not C#)
 - Export the executable to your operating system
+
+## Blender
+
+The Blender project can be found on [this](https://drive.google.com/drive/folders/1Yh4z9pUjbT1AC8Mhw9G_g7e3z9DKUfWG?usp=drive_link) link.
 
 ## How To Contribute
 
@@ -62,7 +66,6 @@ git clone --recursive https://github.com/FOSS-Supremacy/apple-seed
 - Verify the open issues and select some item to work on
 - Once ready, send a pull request (if you are adding commits on the PR branch, mark it as draft status)
 - We don't accept C# code
-- New assets should be sent to the repository in the `.gitmodules` file
 
 ## Donate
 
