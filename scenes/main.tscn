@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqkfwxve5mbwx"]
+
+[ext_resource type="PackedScene" uid="uid://c0bldtb66vr8g" path="res://glb/scenario.glb" id="1_mwbdx"]
+
+[node name="main" type="Node3D"]
+
+[node name="scenario" parent="." instance=ExtResource("1_mwbdx")]
