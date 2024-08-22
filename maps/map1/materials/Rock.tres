@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://vnsp26mykf1l"]
+
+[ext_resource type="Texture2D" uid="uid://bjxhn8380at1r" path="res://maps/map1/scenario_Rocks.jpg" id="1_n7s53"]
+
+[resource]
+resource_name = "Rock"
+cull_mode = 2
+albedo_texture = ExtResource("1_n7s53")
+roughness = 0.5

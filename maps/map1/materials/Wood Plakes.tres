@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b1typ2i2jkiby"]
+
+[ext_resource type="Texture2D" uid="uid://d3v3hdimgc4yu" path="res://maps/map1/scenario_Wood Plakes.jpg" id="1_i8owp"]
+
+[resource]
+resource_name = "Wood Plakes"
+cull_mode = 2
+albedo_texture = ExtResource("1_i8owp")
+roughness = 0.5

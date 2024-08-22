@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://ibrte7xh4tck"]
 
 [ext_resource type="PackedScene" uid="uid://cy4dkth65qsso" path="res://scenes/world.tscn" id="1_0w5c8"]
-[ext_resource type="PackedScene" uid="uid://c0asesxjndc36" path="res://scenes/player.tscn" id="2_ob43d"]
+[ext_resource type="PackedScene" uid="uid://cr2ersq7g6q6f" path="res://scenes/Characters/player.tscn" id="2_n17lv"]
 
 [node name="single_player" type="Node3D"]
 
 [node name="world" parent="." instance=ExtResource("1_0w5c8")]
 
-[node name="player" parent="." instance=ExtResource("2_ob43d")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -20.2134, 1.95762, 49.3742)
+[node name="player" parent="." instance=ExtResource("2_n17lv")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -40, 0, 50)

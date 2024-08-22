@@ -31,6 +31,37 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"Doll": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Doll.tres"
+},
+"Floor": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Floor.tres"
+},
+"Leaves": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Leaves.tres"
+},
+"Rock": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Rock.tres"
+},
+"Wood": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Wood.tres"
+},
+"Wood Plakes": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Wood Plakes.tres"
+},
+"Wood Plakes.001": {
+"use_external/enabled": true,
+"use_external/path": "res://maps/map1/materials/Wood Plakes.001.tres"
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

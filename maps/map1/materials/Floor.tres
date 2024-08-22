@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://yxebt4335j6o"]
+
+[ext_resource type="Texture2D" uid="uid://d1avctq8oh0ni" path="res://maps/map1/scenario_Grass.jpg" id="1_ixcwv"]
+
+[resource]
+resource_name = "Floor"
+cull_mode = 2
+albedo_texture = ExtResource("1_ixcwv")
+roughness = 0.5

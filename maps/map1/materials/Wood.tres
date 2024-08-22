@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ccxulc7wo0o7w"]
+
+[ext_resource type="Texture2D" uid="uid://b4px26oesnc1h" path="res://maps/map1/scenario_Wood.jpg" id="1_62uut"]
+
+[resource]
+resource_name = "Wood"
+cull_mode = 2
+albedo_texture = ExtResource("1_62uut")
+roughness = 0.5
