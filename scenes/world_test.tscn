@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://drioonumnruo2"]
+
+[ext_resource type="PackedScene" uid="uid://c0asesxjndc36" path="res://scenes/player.tscn" id="1_hvyki"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_dmgsx"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_uemqs"]
+points = PackedVector3Array(-25, -0.5, -25, -25, 0.5, -25, 25, -0.5, -25, -25, -0.5, 25, -25, 0.5, 25, 25, 0.5, -25, 25, -0.5, 25, 25, 0.5, 25)
+
+[node name="world" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_dmgsx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D"]
+shape = SubResource("ConvexPolygonShape3D_uemqs")
+
+[node name="player" parent="." instance=ExtResource("1_hvyki")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.64251, 0)

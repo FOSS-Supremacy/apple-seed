@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://fqd3uyx34elq"]
+
+[ext_resource type="Script" path="res://scripts/multiplayer.gd" id="1_p4j47"]
+[ext_resource type="PackedScene" uid="uid://cy4dkth65qsso" path="res://scenes/world.tscn" id="1_v8g6b"]
+[ext_resource type="PackedScene" uid="uid://c0asesxjndc36" path="res://scenes/player.tscn" id="2_arc1f"]
+
+[node name="multiplayer" type="Node3D"]
+script = ExtResource("1_p4j47")
+
+[node name="world" parent="." instance=ExtResource("1_v8g6b")]
+
+[node name="player" parent="." instance=ExtResource("2_arc1f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.4814, 1.93538, 42.6072)
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://scenes/player.tscn")
+spawn_path = NodePath("..")
+
+[node name="host" type="Button" parent="."]
+offset_left = -198.0
+offset_top = -49.0
+offset_right = -104.0
+offset_bottom = -9.0
+text = "Host"
+
+[node name="join" type="Button" parent="."]
+offset_left = 87.0
+offset_top = -46.0
+offset_right = 181.0
+offset_bottom = -6.0
+text = "Join
+"
+
+[connection signal="pressed" from="host" to="." method="_on_host_pressed"]
+[connection signal="pressed" from="join" to="." method="_on_join_pressed"]
