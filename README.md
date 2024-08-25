@@ -85,3 +85,23 @@ If you want to support our work, consider a donation, every amount is important.
 ```
 bc1qg9x5vzr4ppkm2ssw5k7ete4lu49wg7t02azkce
 ```
+
+## Credits
+
+- "Attack On Titan:Titan Sword" (https://skfb.ly/Kyr7) by NomNOm150 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Wall-mounted artillery (Attack on Titan)" () by sergeilihandristov is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Low-Poly Kar98K" (https://skfb.ly/6vIoT) by TastyTony is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Musket" (https://skfb.ly/6xXGu) by Connor S. Nielsen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Flare Gun - Attack On Titans" (https://skfb.ly/o9KSM) by Nelesh_surve is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Medieval House 1" (https://skfb.ly/ooIoU) by Animau3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Medieval House 3" (https://skfb.ly/ooIps) by Animau3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Medieval House 4" (https://skfb.ly/ooIpB) by Animau3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Colossal Titan" (https://skfb.ly/6ZOZ7) by Sidaivan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Medieval House 2" (https://skfb.ly/ooIoZ) by Animau3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Stone Floor" (https://skfb.ly/6C7SH) by GruntWorks is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Low-Poly Carcano M1891" (https://skfb.ly/6wEWP) by TastyTony is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Horse" (https://skfb.ly/6RC6u) by Mohammed.Dael.Alshogaa is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Horse Walk" (https://skfb.ly/6VDWO) by Amitesh Nandan is licensed under Creative Commons Attribution-NoDerivs (http://creativecommons.org/licenses/by-nd/4.0/).
+- "Female Titan" (https://skfb.ly/oVr9n) by vasian-65 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Attack on Titan Torhaus Texturiert" (https://skfb.ly/6ZJZE) by Kafu Dev is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "Attack on Titan ODM Gear (Low Poly)" (https://skfb.ly/ovCR6) by Ya_Homeslice is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

@@ -3,4 +3,4 @@
 [resource]
 resource_name = "Leaves"
 cull_mode = 2
-albedo_color = Color(0.0941176, 0.678431, 0.0352941, 1)
+albedo_color = Color(1.14311e-07, 0.307571, 0.0177809, 1)

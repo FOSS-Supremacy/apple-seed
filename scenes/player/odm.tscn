@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://csghtsnfa68rp"]
+
+[ext_resource type="PackedScene" uid="uid://ceijctaa3ln4n" path="res://assets/player/attack_on_titan_odm_gear_low_poly.glb" id="1_v5kop"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_v5kop")]
+
+[node name="Blade1_1" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="0"]
+visible = false
+
+[node name="Blade1_001_3" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="1"]
+visible = false
