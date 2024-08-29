@@ -1,3 +1,4 @@
+
 extends CharacterBody3D
 
 const LERP_VALUE : float = 0.15
@@ -10,6 +11,8 @@ var speed : float
 @export var run_speed : float = 5.0
 @export var jump_strength : float = 15.0
 @export var gravity : float = 50.0
+
+var player_aim:bool = false
 
 const ANIMATION_BLEND : float = 7.0
 
