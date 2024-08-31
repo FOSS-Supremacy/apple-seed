@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://drioonumnruo2"]
 
 [ext_resource type="Environment" uid="uid://cs0m1jhlpv3rp" path="res://scenes/world/day.tres" id="1_eq25x"]
-[ext_resource type="PackedScene" uid="uid://22xw3ty05uer" path="res://assets/prefabs/actors/player/Player.tscn" id="3_c7rbp"]
+[ext_resource type="PackedScene" uid="uid://dwahv3orq4k8t" path="res://scenes/tests/test_player.tscn" id="2_1vwe3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s1fsi"]
 albedo_color = Color(0.332881, 0.332881, 0.332881, 1)
@@ -29,10 +29,6 @@ mesh = SubResource("BoxMesh_dmgsx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="floor/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_olifn")
-
-[node name="Player" parent="." instance=ExtResource("3_c7rbp")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-aim_offset = Vector3(0.6, 0.5, 0)
 
 [node name="Builds" type="Node3D" parent="."]
 
@@ -155,3 +151,6 @@ size = Vector3(10, 30, 44.1167)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.1657, 15.5, 199.925)
 use_collision = true
 size = Vector3(10, 30, 44.1167)
+
+[node name="test_player" parent="." instance=ExtResource("2_1vwe3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.62807, 0)
