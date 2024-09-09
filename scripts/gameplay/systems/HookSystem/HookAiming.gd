@@ -8,6 +8,7 @@ extends Node3D
 @export var grapple_target: Marker3D
 @export var hook_left: Marker3D
 @export var hook_right: Marker3D
+@export var CenterPoint:Marker3D
 
 @export_subgroup("Raycasts")
 @export var GrappleRaycast: RayCast3D
@@ -42,6 +43,7 @@ func handle_input(event: InputEvent) -> void:
 		fire_hooks()
 
 func update(delta: float) -> void:
+	CenterPointUpdate()
 	parent.RaycastController(target_position, grapple_target, GrappleRaycast)
 
 # ------------------------- Hook Firing Functions -------------------------
@@ -53,8 +55,17 @@ func fire_hooks() -> void:
 		parent.RaycastController(HookLeftPoint, hook_left, HookLeftRaycast)
 		parent.RaycastController(HookRightPoint, hook_right, HookRightRaycast)
 		
+		# Calculate hook lengths based on collision points
+		var length_left = (HookLeftPoint - left_launcher.global_transform.origin).length()
+		var length_right = (HookRightPoint - right_launcher.global_transform.origin).length()
+
 		# Draw the strings using global_transform for the global world
-		parent.draw_hook(line_left, rope_left, HookLeftPoint, left_launcher.global_transform.origin)
-		parent.draw_hook(line_right, rope_right, HookRightPoint, right_launcher.global_transform.origin)
+		parent.draw_hook(line_left, rope_left, HookLeftPoint, left_launcher.global_transform.origin, length_left)
+		parent.draw_hook(line_right, rope_right, HookRightPoint, right_launcher.global_transform.origin, length_right)
 		
 		parent.hooks_fired = true
+
+func CenterPointUpdate() -> void:
+	var left_pos = hook_left.global_transform.origin
+	var right_pos = hook_right.global_transform.origin
+	CenterPoint.global_transform.origin = (left_pos + right_pos) * 0.5

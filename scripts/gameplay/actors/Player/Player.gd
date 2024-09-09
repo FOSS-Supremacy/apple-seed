@@ -36,6 +36,7 @@ var PLAYER_AIM:bool = false
 var mesh_rotation_lerp = 0.15
 const ANIMATION_BLEND : float = 7.0
 
+
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	
