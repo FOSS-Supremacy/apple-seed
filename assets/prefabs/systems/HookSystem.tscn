@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://yy41lwt3criw"]
+
+[ext_resource type="Script" path="res://scripts/gameplay/systems/HookSystem/hookController.gd" id="1_e5out"]
+[ext_resource type="Script" path="res://scripts/gameplay/systems/HookSystem/HookAiming.gd" id="2_0sadf"]
+[ext_resource type="Script" path="res://scripts/gameplay/systems/HookSystem/HookAutomatic.gd" id="3_w7wwe"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_ssd5h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d35px"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i35n3"]
+albedo_color = Color(0, 1, 0.0977142, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pgo88"]
+albedo_color = Color(0, 0.0238261, 1, 1)
+
+[node name="HookSystem" type="Node3D"]
+script = ExtResource("1_e5out")
+
+[node name="GrappleTarget" type="Marker3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="GrappleTarget"]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
+mesh = SubResource("SphereMesh_ssd5h")
+surface_material_override/0 = SubResource("StandardMaterial3D_d35px")
+
+[node name="HookLeft" type="Marker3D" parent="."]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="HookLeft"]
+transform = Transform3D(0.22, 0, 0, 0, 0.22, 0, 0, 0, 0.22, 0, 0, 0)
+mesh = SubResource("SphereMesh_ssd5h")
+skeleton = NodePath("../../GrappleTarget")
+surface_material_override/0 = SubResource("StandardMaterial3D_i35n3")
+
+[node name="HookRight" type="Marker3D" parent="."]
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="HookRight"]
+transform = Transform3D(0.22, 0, 0, 0, 0.22, 0, 0, 0, 0.22, 0, 0, 0)
+mesh = SubResource("SphereMesh_ssd5h")
+skeleton = NodePath("../../GrappleTarget")
+surface_material_override/0 = SubResource("StandardMaterial3D_pgo88")
+
+[node name="HookAiming" type="Node3D" parent="." node_paths=PackedStringArray("grapple_target", "hook_left", "hook_right")]
+script = ExtResource("2_0sadf")
+grapple_target = NodePath("../GrappleTarget")
+hook_left = NodePath("../HookLeft")
+hook_right = NodePath("../HookRight")
+
+[node name="HookAutomatic" type="Node3D" parent="." node_paths=PackedStringArray("grapple_target", "hook_left", "hook_right")]
+script = ExtResource("3_w7wwe")
+grapple_target = NodePath("../GrappleTarget")
+hook_left = NodePath("../HookLeft")
+hook_right = NodePath("../HookRight")
