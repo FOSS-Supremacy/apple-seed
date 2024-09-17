@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buhggf3dragy3"
+path="res://.godot/imported/steam hisses - Marker #3.wav-c12dc8257664a2805dbca3ea8b615e46.sample"
+
+[deps]
+
+source_file="res://assets/sounds/steam hisses - Marker #3.wav"
+dest_files=["res://.godot/imported/steam hisses - Marker #3.wav-c12dc8257664a2805dbca3ea8b615e46.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
