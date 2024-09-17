@@ -63,7 +63,7 @@ The Blender project can be found on [this](https://drive.google.com/drive/folder
 
 ## How To Contribute
 
-- Give a start to this repository, it will increase our chances to receive contributions.
+- Give a star to this repository, it will increase our chances to receive contributions.
 - Download the [Godot Engine](https://godotengine.org/) 4.x version (normal variant, not C#)
 - Verify the open issues and select some item to work on
 - Once ready, send a pull request (if you are adding commits on the PR branch, mark it as draft status)
@@ -105,3 +105,5 @@ bc1qg9x5vzr4ppkm2ssw5k7ete4lu49wg7t02azkce
 - "Female Titan" (https://skfb.ly/oVr9n) by vasian-65 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 - "Attack on Titan Torhaus Texturiert" (https://skfb.ly/6ZJZE) by Kafu Dev is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 - "Attack on Titan ODM Gear (Low Poly)" (https://skfb.ly/ovCR6) by Ya_Homeslice is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- "attack on titan grappling hook reference" (https://skfb.ly/orYwL) by Alvarr is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
