@@ -1,6 +1,6 @@
 # Apple Seed
 
-An open-world game inspired by [Roark's Attack On Titan](https://roarkdev.itch.io/raot)
+The worlds-first fully open-source Attack On Titan fan game inspired on [Roark's Attack On Titan](https://roarkdev.itch.io/raot)
 
 ## Motivation
 
@@ -11,6 +11,8 @@ The Attack On Titan games has complex mechanics and bad performance for low/mid-
 We consider the Roark's Attack On Titan fan game the best effort to create a good adaptation, but the mechanics are still complex, even with a gamepad.
 
 The fan game ended its development (verify their Discord announcements), thus their players don't get updates anymore.
+
+Another reason is because there's no 100% open-source Attack On Titan games, it's the first to use an open-source game engine.
 
 We want to change the Attack On Titan gaming scenario once for all with a great game with easy mechanics and good performance.
 

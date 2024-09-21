@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://c6ilsuf6dkild"]
+
+[ext_resource type="Script" path="res://scripts/fly_cam.gd" id="1_emduh"]
+[ext_resource type="PackedScene" uid="uid://dalpruhkcubak" path="res://scenes/world/map2.tscn" id="2_7btb3"]
+[ext_resource type="Environment" uid="uid://cs0m1jhlpv3rp" path="res://scenes/world/day.tres" id="2_j8ypg"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_l0tqc"]
+
+[node name="fly_cam" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("2_j8ypg")
+
+[node name="sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="map2" parent="." instance=ExtResource("2_7btb3")]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 399.032, 0)
+motion_mode = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_l0tqc")
+
+[node name="cam" type="Node3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57608, 0)
+script = ExtResource("1_emduh")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/cam"]

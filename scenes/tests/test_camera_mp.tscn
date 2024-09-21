@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5ub2qjwkui5e"]
-
-[ext_resource type="PackedScene" uid="uid://fqd3uyx34elq" path="res://scenes/multiplayer.tscn" id="1_untwi"]
-
-[node name="test_camera_mp" type="Node3D"]
-
-[node name="multiplayer" parent="." instance=ExtResource("1_untwi")]
